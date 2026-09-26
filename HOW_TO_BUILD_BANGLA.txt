@@ -1,0 +1,49 @@
+HYDRO BUDDY EXE বানানোর সহজ নিয়ম
+=================================
+
+তোমার PC-তে Python install করতে হবে না। GitHub-এর Windows machine-এ EXE build হবে।
+
+STEP 1 — GitHub account
+------------------------
+GitHub-এ login করো বা account না থাকলে free account খুলো।
+
+STEP 2 — New repository
+-----------------------
+1. GitHub খুলে New repository চাপো।
+2. Repository name দাও: hydro-buddy
+3. Public রাখলে সবচেয়ে সহজ হবে।
+4. Create repository চাপো।
+
+STEP 3 — Files upload
+---------------------
+এই ZIP-এর ভিতরের সবকিছু repository-তে upload করতে হবে।
+বিশেষ করে `.github` folder-টা অবশ্যই upload হবে।
+
+যে files/folder থাকবে:
+- hydro_buddy.py
+- mascot_male.gif
+- mascot_female.gif
+- requirements.txt
+- .github/workflows/build-windows.yml
+
+STEP 4 — Actions চালাও
+-----------------------
+1. Repository-র উপরে Actions tab চাপো।
+2. বাম পাশে "Build Hydro Buddy Windows EXE" চাপো।
+3. "Run workflow" চাপো।
+4. আবার সবুজ "Run workflow" button চাপো।
+
+STEP 5 — EXE download
+---------------------
+Build শেষ হলে:
+1. Green check থাকা workflow run খুলবে।
+2. নিচে Artifacts section খুঁজে বের করো।
+3. "HydroBuddy-Windows" download করো।
+4. ZIP extract করো।
+5. ভিতরে HydroBuddy.exe থাকবে।
+6. Double-click করে চালাও।
+
+তারপর আর Python লাগবে না।
+
+যদি কোনো জায়গায় আটকে যাও, ওই screen-এর screenshot পাঠাও।
+আমি next exact click বলে দেব।
